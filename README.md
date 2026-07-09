@@ -1,10 +1,9 @@
 # Stage2_HackBio_Task
 This is the stage 2 task from HackBio internship in AI for Genomics.
 
-# Assignment
-Predicting Drug Sensitivity in Cancer (GDSC)
+# Predicting Drug Sensitivity in Cancer (GDSC)
 
-of cancer cell lines to treatments using the ln(IC50) column.
+Using the same dataset as last week, build a machine learning models to predict the sensitivityof cancer cell lines to treatments using the ln(IC50) column.
 
 There are two possible ways to approach this task. Either approach it as a classification task or regression task. If you are approaching it as a regression task, simply use the column LN_IC50 column.
 
