@@ -3,7 +3,7 @@ This is the stage 2 task from HackBio internship in AI for Genomics.
 
 ## Predicting Drug Sensitivity in Cancer (GDSC)
 
-Using the same dataset as last week, build a machine learning models to predict the sensitivityof cancer cell lines to treatments using the ln(IC50) column.
+Build a machine learning models to predict the sensitivityof cancer cell lines to treatments using the ln(IC50) column.
 
 There are two possible ways to approach this task. Either approach it as a classification task or regression task. If you are approaching it as a regression task, simply use the column LN_IC50 column.
 
@@ -17,7 +17,10 @@ Modeling: We suggest you try either random forest or xgboosting. They both have 
 
 Feature Importance and Evaluation: These are key components of your report and our grading. Justify everything like a biologist, don’t just look for numbers that pass a threshold.
 
-#Findings and Discussion
+## Research Question
+Can we predict whether a cancer cell line will be sensitive or resistant to Oxaliplatin based on its molecular and biological characteristics?
+
+## Findings and Discussion
 
 1. Drug modeled, and why
 I modeled Oxaliplatin (n = 1,287 cell-line measurements, one of the largest of the 246 drugs in this GDSC panel — second only to Ulixertinib at 1,302). Sample size mattered practically: after the 25th/75th percentile split this left 322 sensitive and 322 resistant cell lines (644 total), enough for a reasonably stable train/test split.
